@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TheGuesser</string>
+    <string name="adivinhe">Adivinhe um número de 0 a 10</string>
+    <string name="bola_de_cristal">Bola de cristal</string>
+    <string name="chutar">Chutar</string>
+    <string name="seu_ltimo_chute">Seu último chute:</string>
+</resources>

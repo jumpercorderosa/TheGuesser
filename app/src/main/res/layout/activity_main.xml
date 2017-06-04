@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.example.danielle.theguesser.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/bola_de_cristal"
+        android:src="@drawable/bola_cristal"/>
+
+    <EditText
+        android:id="@+id/etNumeroChute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dim_test"
+        android:hint="@string/adivinhe"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/btnChutar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chutar"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/seu_ltimo_chute"
+        tools:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/tvUltimoChute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textAlignment="center"
+        android:layout_marginTop="25dp"
+        android:textSize="124sp" />
+
+</LinearLayout>
